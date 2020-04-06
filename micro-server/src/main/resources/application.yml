@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: micro-service
+  profiles:
+    active: dev
+
+server:
+  port: 8088
+
+mybatis:
+  mapper-locations: classpath:mapping/**/*.xml
+  type-aliases-package: com.hello.micro.service.model
