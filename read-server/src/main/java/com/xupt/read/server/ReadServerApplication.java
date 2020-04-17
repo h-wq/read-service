@@ -9,7 +9,7 @@ import org.springframework.scheduling.annotation.EnableAsync;
 @SpringBootApplication
 @EnableDubboConfiguration
 @EnableAsync
-@MapperScan(basePackages = "com.hello.micro.service.mapper")
+@MapperScan(basePackages = "com.xupt.read.server.mapper")
 public class ReadServerApplication {
 
 	public static void main(String[] args) {
