@@ -2,7 +2,7 @@ spring:
   application:
     name: read-server
   profiles:
-    active: dev
+    active: online
 
 server:
   port: 8081
