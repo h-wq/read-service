@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: read-server
+  profiles:
+    active: dev
+
+server:
+  port: 8081
+
+mybatis:
+  mapper-locations: classpath:mapping/**/*.xml
+  type-aliases-package: com.xupt.read.server.model

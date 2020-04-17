@@ -4,8 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
     <packaging>pom</packaging>
     <modules>
-        <module>micro-sdk</module>
-		<module>micro-server</module>
+        <module>read-sdk</module>
+		<module>read-server</module>
 	</modules>
     <parent>
 		<groupId>org.springframework.boot</groupId>
@@ -13,10 +13,10 @@
 		<version>2.2.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.hello</groupId>
-	<artifactId>micro-service</artifactId>
+	<groupId>com.xupt</groupId>
+	<artifactId>read-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>micro-service</name>
+	<name>read-service</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
