@@ -8,22 +8,20 @@ function usage() {
     echo "  run.sh stop"
 }
 
+NAME="$1"
+APP="$2"
+COMMAND="$3"
+ENV="$4"
+
 source /etc/profile
+
+git checkout $env
 cd target
 PARAM_COUNT=$#
 if [ $PARAM_COUNT -lt 3 ]; then
     usage
     exit 1
 fi
-
-NAME="$1"
-APP="$2"
-COMMAND="$3"
-ENV="$4"
-echo "$COMMAND"
-echo "$ENV"
-
-git checkout $env
 
 if [ "$ENV" != "" ]; then
     shift 4
