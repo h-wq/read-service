@@ -20,6 +20,8 @@ NAME="$1"
 APP="$2"
 COMMAND="$3"
 ENV="$4"
+echo "$COMMAND"
+echo "$ENV"
 
 git checkout $env
 
